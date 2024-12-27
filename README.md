@@ -15,7 +15,7 @@ This project includes two main components:
 The backend system is developed with Spring Boot and provides the following functionalities:
 - **Book Management**: Add, query, update, and delete books.
 - **Inventory Management**: Update stock and check stock availability.
-- **User Management**: Register, login, and view user information.
+- **User Management**: Send phone code, register and login, and view user information.
 - **Order Processing**: Create, cancel, and query order status.
 
 To run this program, we need to config mysql and redis info yml
