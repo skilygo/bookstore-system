@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookstore
+    username: root
+    password: xxxx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  cloud:
+    config:
+      enabled: false
+  redis:
+    database: 0
+    host: redis-t.lty.club
+    port: 6379
+    timeout: 1000
+    password: xxxxxx
+    jedis:
+      pool:
+        max-idle: 200
+        max-wait:
+        min-idle: 0
+        max-active: 10
